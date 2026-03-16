@@ -17,13 +17,24 @@ def auth_page():
     }
 
     input{
-        color:black !important;
-        font-weight:600;
+        color:white !important;
+        font-weight:700 !important;
+        background-color:rgba(0,0,0,0.65) !important;
     }
 
     label{
         color:white !important;
-        font-weight:700;
+        font-weight:700 !important;
+    }
+
+    ::placeholder{
+    color:#cbd5f5 !important;
+    }
+
+    /* focus effect */
+
+    input:focus{
+        border:2px solid #38bdf8 !important;
     }
 
     </style>
@@ -40,7 +51,7 @@ def auth_page():
         with l2:
             st.image(LOGO, width=220)
 
-
+        # TITLE
         st.markdown(
             "<div class='login-title'>GEN Enterprise AI Nexus</div>",
             unsafe_allow_html=True

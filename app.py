@@ -140,16 +140,27 @@ INPUT TEXT
 ----------------------------- */
 
 .stTextInput input {{
-    color:#000000 !important;
-    font-weight:600;
+    color:#ffffff !important;
+    font-weight:700 !important;
+    background-color:rgba(0,0,0,0.65) !important;
 }}
 
 textarea {{
-    color:#000000 !important;
+    color:#ffffff !important;
+    font-weight:700 !important;
+    background-color:rgba(0,0,0,0.65) !important;
 }}
 
 select {{
-    color:#000000 !important;
+    color:#ffffff !important;
+    font-weight:700 !important;
+}}
+
+/* placeholder text */
+
+::placeholder {{
+    color:#cbd5f5 !important;
+    font-weight:600;
 }}
 
 
@@ -159,17 +170,29 @@ FILE UPLOADER TEXT
 
 [data-testid="stFileUploader"] label {{
     color:#000000 !important;
-    font-weight:700;
+    font-weight:800 !important;
 }}
 
 [data-testid="stFileUploader"] span {{
     color:#000000 !important;
+    font-weight:700 !important;
 }}
 
 [data-testid="stFileUploader"] small {{
     color:#000000 !important;
+    font-weight:700 !important;
 }}
 
+[data-testid="stFileUploader"] button {{
+    color:#000000 !important;
+    font-weight:700 !important;
+}}
+
+[data-testid="stFileUploader"] {{
+    border:2px dashed #38bdf8;
+    border-radius:10px;
+    padding:10px;
+}}
 
 /* -----------------------------
 BUTTON STYLE
