@@ -173,12 +173,17 @@ FILE UPLOADER TEXT
     font-weight:800 !important;
 }}
 
+[data-testid="stFileUploader"] div {{
+    color:#000000 !important;
+    font-weight:700 !important;
+}}
+
 [data-testid="stFileUploader"] span {{
     color:#000000 !important;
     font-weight:700 !important;
 }}
 
-[data-testid="stFileUploader"] small {{
+[data-testid="stFileUploader"] p {{
     color:#000000 !important;
     font-weight:700 !important;
 }}
@@ -186,6 +191,10 @@ FILE UPLOADER TEXT
 [data-testid="stFileUploader"] button {{
     color:#000000 !important;
     font-weight:700 !important;
+}}
+
+[data-testid="stFileUploader"] small {{
+    color:#000000 !important;
 }}
 
 [data-testid="stFileUploader"] {{
