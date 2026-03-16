@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+google-generativeai
+pandas
+numpy
+plotly
+sentence-transformers
+scikit-learn
+bcrypt
+pillow
