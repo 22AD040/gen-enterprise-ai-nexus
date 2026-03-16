@@ -169,32 +169,32 @@ FILE UPLOADER TEXT
 ----------------------------- */
 
 [data-testid="stFileUploader"] label {{
-    color:#000000 !important;
+    color:#ffffff !important;
     font-weight:800 !important;
 }}
 
 [data-testid="stFileUploader"] div {{
-    color:#000000 !important;
+    color:#ffffff !important;
     font-weight:700 !important;
 }}
 
 [data-testid="stFileUploader"] span {{
-    color:#000000 !important;
+    color:#ffffff !important;
     font-weight:700 !important;
 }}
 
 [data-testid="stFileUploader"] p {{
-    color:#000000 !important;
+    color:#ffffff !important;
     font-weight:700 !important;
 }}
 
 [data-testid="stFileUploader"] button {{
-    color:#000000 !important;
+    color:#ffffff !important;
     font-weight:700 !important;
 }}
 
 [data-testid="stFileUploader"] small {{
-    color:#000000 !important;
+    color:#ffffff !important;
 }}
 
 [data-testid="stFileUploader"] {{
